@@ -1,0 +1,59 @@
+/* pages/home/home/home.wxss */
+page{
+  background-color: #ececec;
+}
+.header{
+  /* height: 200rpx; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 40rpx;
+  box-sizing: border-box;
+}
+
+.header .left image{
+  width: 200rpx;
+  height: 100rpx;
+  margin-top: 0;
+}
+
+.header view{
+  vertical-align: bottom;
+}
+
+.header image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 30rpx;
+  box-sizing: border-box;
+}
+
+.swiper{
+  height: 400rpx;
+  background-color: #fff;
+  padding: 10rpx;
+  margin-bottom: 10rpx;
+  box-sizing: border-box;
+}
+
+.swiper swiper{
+  height: 100%;
+}
+
+.option{
+  background-color: #fff;
+  height: 300rpx;
+}
+
+.list{
+  padding: 0 10rpx;
+  box-sizing: border-box;
+}
+
+.goods{
+  height: 50rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26rpx;
+  font-weight: 600;
+}

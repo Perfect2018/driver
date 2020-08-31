@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/home/home/home",
+    "pages/inform/inform/inform",
+    "pages/nav/nav/nav",
+    "pages/personal/personal/personal",
+    "pages/supply/supply/supply",
+    "components/orderList/index",
+    "pages/home/goodsDetail/goodsDetail",
+    "pages/personal/personalData/personalData",
+    "pages/personal/withdraw/withdraw",
+    "pages/personal/phone/phone",
+    "pages/personal/changePhone/changePhone",
+    "pages/personal/eveluation/eveluation"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "秦经智运",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#343434",
+    "selectedColor": "#d81e06",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home/home",
+        "text": "首页",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/s-home.png"
+      },
+      {
+        "pagePath": "pages/supply/supply/supply",
+        "text": "货源大厅",
+        "iconPath": "/images/supply.png",
+        "selectedIconPath": "/images/s-supply.png"
+      },
+      {
+        "pagePath": "pages/nav/nav/nav",
+        "text": "跟踪单",
+        "iconPath": "/images/nav.png",
+        "selectedIconPath": "/images/s-nav.png"
+      },
+      {
+        "pagePath": "pages/inform/inform/inform",
+        "text": "消息通知",
+        "iconPath": "/images/info.png",
+        "selectedIconPath": "/images/s-info.png"
+      },
+      {
+        "pagePath": "pages/personal/personal/personal",
+        "text": "我的",
+        "iconPath": "/images/user.png",
+        "selectedIconPath": "/images/s-user.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

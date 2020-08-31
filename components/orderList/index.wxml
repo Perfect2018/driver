@@ -1,0 +1,47 @@
+<!--components/orderList/index.wxml-->
+<view class="orderlist" wx:for="{{orderList}}" wx:key="index">
+	<view bindtap="toView">
+		<view class="left">
+			<view>
+				<view class="install">装</view>
+				<text>{{item.start}}</text>
+			</view>
+			<view>
+				<view class="unload">卸</view>
+				<text>{{item.end}}</text>
+			</view>
+			<view class="color666">
+				<text>{{item.goodName}}</text> |
+				<text> {{item.weight}}吨 </text> |
+				<text>{{item.require}}装货</text>
+			</view>
+			<view class="color666">{{item.company}}</view>
+		</view>
+		<view class="right">
+			<view class="time">{{item.time}}</view>
+			<view>
+				<view>已抢<text style="color:#c2192c">{{item.total}}单</text></view>
+				<view class="price">{{item.price}}元/吨</view>
+			</view>
+		</view>
+	</view>
+	<block wx:if="{{item.state=='01'}}">
+		<view class="btn-group">
+			<view class="btn" catchtap="load" data-id="{{item.id}}">装货</view>
+			<view class="btn" catchtap="complain" data-id="{{item.id}}">投诉</view>
+			<view class="btn" catchtap="cancel" data-id="{{item.id}}">取消</view>
+		</view>
+	</block>
+  <block wx:if="{{item.state=='02'}}">
+		<view class="btn-group">
+			<view class="btn" catchtap="look" data-id="{{item.id}}">装卸货信息</view>
+			<view class="btn" catchtap="complain" data-id="{{item.id}}">投诉</view>
+		</view>
+	</block>
+  <block wx:if="{{item.state=='03'}}">
+		<view class="btn-group">
+			<view class="btn" catchtap="prompt" data-id="{{item.id}}">催款</view>
+			<view class="btn" catchtap="complain" data-id="{{item.id}}">投诉</view>
+		</view>
+	</block>
+</view>

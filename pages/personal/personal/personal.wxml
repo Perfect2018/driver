@@ -1,0 +1,88 @@
+<!--pages/personal/personal/personal.wxml-->
+<view class="header">
+  <view class="userInfo">
+    <image src="../../../images/logo.png"></image>
+    <view>
+      <view>姓名</view>
+      <view class="plate">陕A12345</view>
+    </view>
+  </view>
+  <view class="detail" bindtap="toView" data-navigate="personalData">
+    <view>个人资料</view>
+  </view>
+</view>
+
+<view class="money">
+  <view class="balance">
+    <text>0.00</text>
+    <view>钱包余额(元)</view>
+  </view>
+  <view class="btn" bindtap="toView" data-navigate="withdraw">
+    <view>提现</view>
+  </view>
+</view>
+
+<view class="my-car">
+  <view>
+    <text class="iconfont iconche-tianchong icon-left"></text>
+    <view>我的车辆</view>
+  </view>
+  <view>
+    <view>审核中</view>
+    <text class="icon-right iconfont iconjiantou"></text>
+  </view>
+</view>
+
+<view class="my-list">
+<view class="my-item">
+  <view>
+    <text class="iconfont icon-left iconiconset0203"></text>
+    <view>加入车队</view>
+  </view>
+  <view>
+    <text class="icon-right iconfont iconjiantou"></text>
+  </view>
+</view>
+
+<view class="my-item">
+  <view>
+    <text class="iconfont icon-left iconkefu"></text>
+    <view>联系客服</view>
+  </view>
+  <view>
+    <view>400-086-1234</view>
+    <text class="icon-right iconfont iconjiantou"></text>
+  </view>
+</view>
+
+<view class="my-item">
+  <view>
+    <text class="iconfont icon-left icontousujianyi"></text>
+    <view>帮助与反馈</view>
+  </view>
+  <view>
+    <text class="icon-right iconfont iconjiantou"></text>
+  </view>
+</view>
+
+<view class="my-item">
+  <view>
+    <text class="iconfont icon-left icontongzhi"></text>
+    <view>接收新消息通知</view>
+  </view>
+  <view>
+    <view>已关闭</view>
+    <text class="icon-right iconfont iconjiantou"></text>
+  </view>
+</view>
+
+<view class="my-item">
+  <view>
+    <text class="iconfont icon-left iconai238"></text>
+    <view>更多设置</view>
+  </view>
+  <view>
+    <text class="icon-right iconfont iconjiantou"></text>
+  </view>
+</view>
+</view>

@@ -1,0 +1,30 @@
+<!--pages/personal/withdraw/withdraw.wxml-->
+<view class="bank" bindtap="change">
+  <view>
+    <view>
+      <text class="iconfont iconzhaoshangyinhang zhaoshang"></text>
+    </view>
+    <view>
+      <view class="bank-name">招商银行</view>
+      <view class="bank-num">尾号7311储蓄卡</view>
+    </view>
+  </view>
+  <view>
+    <text class="iconfont iconjiantou"></text>
+  </view>
+</view>
+
+<view class="money">
+  <view>提现金额</view>
+  <view class="num">
+    <text>￥</text>
+    <input bindinput="getParams"></input>
+    <text bindtap="getAll">全部</text>
+  </view>
+  <view>可提现金额</view>
+</view>
+<view class="bottom">
+  <view class="confirm" bindtap="confirm">确认提现</view>
+  <view class="help" bindtap="help">帮助说明</view>
+</view>
+

@@ -1,0 +1,11 @@
+<!--pages/supply/supply/supply.wxml-->
+<view class="type">
+  <view>
+    <view class="option {{selected?'selected':''}}" bindtap="select" data-select="01">货源大厅</view>
+    <view class="option {{selected?'':'selected'}}" bindtap="select" data-select="02">指派货源</view>
+  </view>
+</view>
+<view class="scan">
+  <image src="../../../images/scan.png"></image>
+</view>
+<order-list order-list="{{orderList}}"></order-list>

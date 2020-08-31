@@ -1,0 +1,61 @@
+/* pages/supply/supply/supply.wxss */
+page{
+  background-color: #ececec;
+  position: relative;
+  padding: 0 10rpx;
+  box-sizing: border-box;
+}
+
+.type{
+  display: flex;
+  justify-content: center;
+  height: 100rpx;
+  align-items: center;
+}
+
+.type>view{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350rpx;
+  height: 60rpx;
+  border: 1rpx solid #c11629;
+  border-radius: 30rpx;
+  font-size: 28rpx;
+  color: #c11629;
+}
+
+.option{
+  width: 175rpx;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+}
+
+.type>view>view:first-child{
+  border-top-left-radius: 30rpx;
+  border-bottom-left-radius: 30rpx;
+}
+
+.type>view>view:last-child{
+  border-top-right-radius: 30rpx;
+  border-bottom-right-radius: 30rpx;
+}
+
+.selected{
+  background-color: #c11629;
+  color: #fff;
+}
+
+.scan{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 20rpx;
+}
+
+.scan image{
+  width: 60rpx;
+  height: 60rpx;
+}

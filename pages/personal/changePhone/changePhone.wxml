@@ -1,0 +1,17 @@
+<!--pages/personal/changePhone/changePhone.wxml-->
+<view class="change">
+	<view>
+		<text class="iconfont iconphone"></text>
+		<input placeholder="请输入手机号" placeholder-class="place" bindinput="getParams" data-param="phone"></input>
+	</view>
+
+	<view>
+		<text class="iconfont iconmima"></text>
+		<input placeholder="请输入验证码" placeholder-class="place" bindinput="getParams" data-param="code"></input>
+		<view class="code" bindtap="getCode">获取验证码</view>
+	</view>
+</view>
+
+<view class="btn">
+  <view bindtap="change">更换</view>
+</view>

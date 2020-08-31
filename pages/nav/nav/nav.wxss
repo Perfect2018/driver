@@ -1,0 +1,10 @@
+/* pages/nav/nav/nav.wxss */
+page{
+  background-color: #ececec;
+  padding: 0 10rpx;
+  box-sizing: border-box;
+}
+
+.title{
+  background-color:#DCDDE0;color:#fff;font-size:28rpx;font-weight:600
+}

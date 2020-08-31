@@ -1,0 +1,27 @@
+<!--pages/home/home/home.wxml-->
+<view class="header">
+  <view class="left">
+    <image src="../../../images/home-logo.png"></image>
+  </view>
+  <view>
+    <image src="../../../images/scan.png"></image>
+  </view>
+</view>
+
+<view class="swiper">
+  <swiper indicator-dots="true" indicator-active-color="#c2192c" autoplay="true">
+    <swiper-item wx:for="{{3}}" wx:key="index">
+      <view>{{item.index}}</view>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class="option"></view>
+
+<view class="list">
+  <view class="goods">
+    <view><text class="iconfont icongengxin"></text>最新货源</view>
+    <view>更多></view>
+  </view>
+  <order-list order-list="{{orderList}}"></order-list>
+</view>

@@ -1,0 +1,8 @@
+<!--pages/personal/phone/phone.wxml-->
+<view class="phone">
+  <view>
+    <text class="iconfont iconphone"></text>
+  </view>
+  <view class="phone-num">当前手机号码：18891556543</view>
+  <view class="btn" bindtap="toView" data-navigate="changePhone">更换手机号</view>
+</view> 

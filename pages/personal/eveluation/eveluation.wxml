@@ -1,0 +1,51 @@
+<!--pages/personal/eveluation/eveluation.wxml-->
+<view class="start">
+  <view>▏星级</view>
+  <view>
+    <text class="iconfont iconxingxing"></text>
+  </view>
+</view>
+
+<view class="statistics">
+  <view>
+    <view class="rate">5星</view>
+    <view>
+      <progress percent="40" activeColor="#c2192c"></progress>
+    </view>
+    <view>40人</view>
+  </view>
+  <view>
+    <view class="rate">4星</view>
+    <view>
+      <progress percent="30" activeColor="#c2192c"></progress>
+    </view>
+    <view>20人</view>
+  </view>
+  <view>
+    <view class="rate">3星</view>
+    <view>
+      <progress percent="20" activeColor="#c2192c"></progress>
+    </view>
+    <view>20人</view>
+  </view>
+  <view>
+    <view class="rate">2星</view>
+    <view>
+      <progress percent="10" activeColor="#c2192c"></progress>
+    </view>
+    <view>10人</view>
+  </view>
+  <view>
+    <view class="rate">1星</view>
+    <view>
+      <progress percent="0" activeColor="#c2192c"></progress>
+    </view>
+    <view>0人</view>
+  </view>
+</view>
+
+<view class="split"></view>
+
+<view class="comment">
+  <view>▏所有评价<text>(0)</text></view>
+</view>

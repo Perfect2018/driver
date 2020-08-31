@@ -1,0 +1,55 @@
+/* pages/personal/eveluation/eveluation.wxss */
+page{
+  /* padding: 20rpx;
+  box-sizing: border-box; */
+}
+
+.start,.statistics>view{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  height: 80rpx;
+  padding: 0 20rpx;
+}
+
+.start{
+  border-bottom: 1rpx solid #ccc;
+}
+
+.start>view{
+  color: #c2192c;
+}
+
+.start>view>text{
+  font-size: 50rpx;
+}
+
+.rate{
+  color: #aaa;
+}
+
+.statistics>view>view:nth-child(2){
+  width: 80%;
+}
+
+.statistics>view>view:last-child{
+  color: #c2192c;
+}
+
+.split{
+  height: 20rpx;
+  width: 100%;
+  background-color: #ececec;
+}
+
+.comment{
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.comment>view:first-child{
+  font-size: 30rpx;
+  color: #c2192c;
+}

@@ -1,0 +1,228 @@
+/* pages/home/goodsDetail/goodsDetail.wxss */
+page{
+  background-color: #ececec;
+}
+
+scroll-view{
+  height: 900rpx;
+}
+
+.tip{
+  height: 50rpx;
+  /* line-height: 50rpx; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EDCBCB;
+  color: #f00;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.good,.addr,.freight{
+  background-color: #fff;
+  margin: 0 10rpx;
+}
+
+.addr{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.good{
+  padding: 10rpx;
+}
+
+.good .origin{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #DCDDE0;
+  border-radius: 8rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  font-weight: 600;
+}
+
+.title{
+  border-bottom: 1rpx solid #ccc;
+}
+
+.good>view{
+  display: flex;
+  font-size: 26rpx;
+  color: #A3A3A3;
+  height: 50rpx;
+  align-items: center;
+}
+
+.good-name,.cars,.car-type,.time,.remark{
+  display: block;
+  width: 150rpx;
+}
+
+.good>view>text{
+  color: #000;
+}
+
+.origin text{
+  margin-left: 20rpx;
+  color: #C11629;
+}
+
+.good>.title>text{
+  color: #A3A3A3;
+  font-size: 26rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-bottom: 10rpx;
+  box-sizing: border-box;
+}
+
+.title text{
+  margin-right: 30rpx;
+}
+
+.good .Remark{
+  height: 70rpx;
+  border-top: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.company-name{
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+.company-name text{
+  margin-right: 20rpx;
+  box-sizing: border-box;
+}
+
+.addr{
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+
+.addr>.start>view:first-child{
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #000;
+}
+
+.addr>.end>view:first-child{
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #000;
+}
+
+.addr>view>view{
+  display: flex;
+  align-items: center;
+  height: 50rpx;
+  color: #A3A3A3;
+  font-size: 26rpx;
+}
+
+.addr>view>view>view{
+  width: 150rpx;
+}
+
+.addr>view>view>text{
+  color: #000;
+}
+
+.nav{
+  background-color: #C11629;
+  color: #fff;
+  font-size: 28rpx;
+  font-weight: 600;
+  width: 80rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  border-radius: 30rpx;
+  margin-left: 20rpx;
+  box-sizing: border-box;
+}
+
+.freight{
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.freight>view{
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  color: #000;
+}
+
+.freight>view>text{
+  color: #C11629;
+  font-size: 28rpx;
+}
+
+.statement{
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.bottom{
+  width: 98%;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  margin: 0 1%;
+  padding: 20rpx 40rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+}
+
+.bottom>view{
+  display: flex;
+  height: 80rpx;
+  align-items: center;
+}
+
+.bottom>view>text:first-child{
+  margin-right: 20rpx;
+  box-sizing: border-box;
+}
+
+.bottom>view>text:nth-child(2){
+  color: #666;
+}
+
+.bottom>view>text:last-child{
+  color: #C11629;
+}
+
+.bottom>.btn{
+  height: 80rpx;
+  /* text-align: center; */
+  line-height: 80rpx;
+  background-color: #C11629;
+  color: #fff;
+  font-size: 28rpx;
+  border-radius: 50rpx;
+  display: flex;
+  justify-content: center;
+  margin-top: 20rpx;
+  box-sizing: border-box;
+}
+
+.color666{
+  color: #666;
+}
+
+.color{
+  color: #C11629;
+}

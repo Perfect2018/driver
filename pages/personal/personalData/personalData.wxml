@@ -1,0 +1,52 @@
+<!--pages/personal/personalData/personalData.wxml-->
+<view class="personal">
+  <view class="personal-item">
+    <view>实名认证</view>
+    <view>
+      <view>已认证</view>
+      <text class="iconfont iconjiantou icon-right"></text>
+    </view>
+  </view>
+  <view class="personal-item">
+    <view>司机认证</view>
+    <view>
+      <view>已认证</view>
+      <text class="iconfont iconjiantou icon-right"></text>
+    </view>
+  </view>
+</view>
+
+<view class="personal">
+  <view class="personal-item" bindtap="toView" data-navigate="phone">
+    <view>手机号码</view>
+    <view>
+      <view>18795651234</view>
+      <text class="iconfont iconjiantou icon-right"></text>
+    </view>
+  </view>
+  <view class="personal-item">
+    <view>二维码名片</view>
+    <view>
+      <!-- <view> -->
+        <text class="iconfont iconerweima"></text>
+      <!-- </view> -->
+      <text class="iconfont iconjiantou icon-right"></text>
+    </view>
+  </view>
+  <view class="personal-item">
+    <view>昵称</view>
+    <view>
+      <view>李师傅</view>
+      <text class="iconfont iconjiantou icon-right"></text>
+    </view>
+  </view>
+  <view class="personal-item" bindtap="toView" data-navigate="eveluation">
+    <view>星级</view>
+    <view>
+      <!-- <view> -->
+        <text class="iconfont iconxingxing rate"></text>
+      <!-- </view> -->
+      <text class="iconfont iconjiantou icon-right"></text>
+    </view>
+  </view>
+</view>

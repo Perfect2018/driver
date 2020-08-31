@@ -1,0 +1,106 @@
+/* components/orderList/index.wxss */
+.orderlist{
+  margin-bottom: 14rpx;
+  padding-bottom: 20rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.orderlist>view{
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+
+.time{
+  color: #D6D6D6;
+  font-size: 22rpx;
+  text-align: right;
+}
+
+.install,.unload{
+  width: 30rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 26rpx;
+  margin-right: 20rpx;
+  box-sizing: border-box;
+}
+
+.install{
+  background-color: #FF7F00;
+}
+
+.unload{
+  background-color: #1AFA29;
+}
+
+.left>view{
+  display: flex;
+  height: 70rpx;
+  align-items: center;
+  font-size: 30rpx;
+  font-weight: 600;
+  /* line-height: 70rpx; */
+}
+
+.left .color666{
+  color: #666;
+  font-size: 28rpx;
+  font-weight: normal;
+}
+
+.color666>text:first-child{
+  margin-right: 20rpx;
+  box-sizing: border-box;
+}
+
+.color666>text:last-child{
+  margin-left: 20rpx;
+  box-sizing: border-box;
+}
+
+.color666>text:nth-child(2){
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+  box-sizing: border-box;
+}
+
+.right>view:last-child{
+  margin-right: 30rpx;
+  text-align: right;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.right>view>view{
+  color: #666;
+}
+
+.price{
+  color: #c2192c;
+}
+
+.btn-group{
+  /* margin-bottom: 20rpx; */
+  box-sizing: border-box;
+}
+
+.btn{
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 1rpx solid #000;
+  border-radius: 8rpx;
+  text-align: center;
+  width: 200rpx;
+  font-size: 28rpx;
+  color: #000;
+}

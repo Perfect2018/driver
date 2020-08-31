@@ -1,0 +1,30 @@
+/* pages/personal/phone/phone.wxss */
+.phone{
+  padding: 100rpx 20rpx 20rpx;
+}
+
+.phone>view{
+  text-align: center;
+}
+
+.phone>view>text{
+  font-size: 150rpx;
+  color: #C2192C;
+}
+
+.phone-num{
+  height: 200rpx;
+  line-height: 200rpx;
+  color: #000;
+  font-size: 30rpx;
+}
+
+.btn{
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #fff;
+  font-size: 30rpx;
+  text-align: center;
+  background-color: #C2192C;
+  border-radius: 50rpx;
+}

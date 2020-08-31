@@ -1,0 +1,18 @@
+<!--pages/nav/nav/nav.wxml-->
+<van-tabs bind:change="selected" sticky>
+  <van-tab title="进行中">
+    <order-list order-list="{{orderList}}" bindload="_load" bindcomplain="_complain" bindcancel="_cancel"></order-list>
+  </van-tab>
+  <van-tab title="待结算">
+    <order-list order-list="{{orderList1}}" bindlook="_look" bindcomplain="_complain"></order-list>
+  </van-tab>
+  <van-tab title="待付款">
+    <order-list order-list="{{orderList2}}" bindprompt="_prompt" bindcomplain="_complain"></order-list>
+  </van-tab>
+  <van-tab title="已完成">
+    <order-list order-list="{{orderList3}}"></order-list>
+  </van-tab>
+  <van-tab title="已取消">
+    <order-list order-list="{{orderList4}}"></order-list>
+  </van-tab>
+</van-tabs>
