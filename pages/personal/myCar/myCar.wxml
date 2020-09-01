@@ -1,0 +1,18 @@
+<!--pages/personal/myCar/myCar.wxml-->
+<view class="car">
+  <view wx:for="{{cars}}" wx:key="id">
+    <view class="left">
+      <view>{{item.num}}</view>
+      <block wx:if="{{item.isSelect=='01'}}"><view class="select">常用</view></block>
+      <block wx:else><view class="set" bindtap="set" data-id="{{item.id}}">设为常用</view></block>
+    </view>
+    <view class="right">
+      <view>{{item.auth=='01'?'已认证':'审核中'}}</view>
+      <view>
+        <text class="iconfont iconjiantou"></text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="add-btn" bindtap="toView" data-navigate="">添加</view>

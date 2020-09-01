@@ -1,0 +1,12 @@
+<view class="title">可加入的车队</view>
+<view class="bgcolor-white">
+	<block wx:if="{{list}}">
+		<view class="item" wx:for="{{list}}" wx:key="id">
+			<view>{{item.name}}</view>
+			<view>
+				<view>查看成员</view>
+				<text class="iconfont iconjiantou"></text>
+			</view>
+		</view>
+	</block>
+</view>

@@ -1,0 +1,25 @@
+.title{
+  font-size: 28rpx;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+  box-sizing: border-box;
+}
+
+.bgcolor-white{
+  padding: 10rpx 40rpx 40rpx;
+}
+
+.bgcolor-white>view{
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4rpx solid #ccc;
+  box-sizing: border-box;
+}
+
+.item>view{
+  display: flex;
+  align-items: center;
+}

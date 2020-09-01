@@ -1,23 +1,21 @@
-// pages/personal/personal/personal.js
+// pages/personal/motorcade/motorcade.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    list:[
+      {id:'111',name:'车队1'},
+      {id:'222',name:'车队2'},
+      {id:'333',name:'车队3'},
+    ]
   },
 
   toView(e){
     let navigate = e.currentTarget.dataset.navigate
     wx.navigateTo({
       url: `/pages/personal/${navigate}/${navigate}`,
-    })
-  },
-
-  call(){
-    wx.makePhoneCall({
-      phoneNumber: '4000861234',
     })
   },
 

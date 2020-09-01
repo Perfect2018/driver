@@ -1,4 +1,4 @@
-// pages/personal/personal/personal.js
+// pages/personal/balance/balance.js
 Page({
 
   /**
@@ -15,12 +15,13 @@ Page({
     })
   },
 
-  call(){
-    wx.makePhoneCall({
-      phoneNumber: '4000861234',
-    })
+  freeze(){
+
   },
 
+  help(){
+    console.log("000")
+  },
   /**
    * 生命周期函数--监听页面加载
    */

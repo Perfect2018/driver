@@ -1,5 +1,12 @@
 /**app.wxss**/
 @import "style/iconfont.wxss";
+
+page{
+  background-color: #ececec;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
 .container {
   height: 100%;
   display: flex;
@@ -9,3 +16,23 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+.bg-color{
+  background-color: #c2192c;
+}
+
+.bgcolor-white{
+  background-color: #fff;
+}
+
+.help{
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 28rpx;
+  color: #b5b5b5;
+}
+
+.pt-30{
+  padding-bottom: 30rpx !important;
+}

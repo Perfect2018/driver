@@ -1,0 +1,28 @@
+<!--pages/personal/motorcade/motorcade.wxml-->
+<view class="title">
+  <view>已加入的车队</view>
+  <view class="add" bindtap="add">+</view>
+</view>
+<view class="bgcolor-white">
+	<block wx:if="{{list}}">
+		<view class="motorcade" wx:for="{{list}}" wx:key="id" data-navigate="" bindtap="toView">
+			<view>{{item.name}}</view>
+			<view>查看成员<text class="iconfont iconjiantou"></text></view>
+		</view>
+	</block>
+	<block wx:else>
+		<view class="motorcade">暂无信息</view>
+	</block>
+</view>
+<view class="title">邀请加入的车队</view>
+<view class="bgcolor-white">
+	<block wx:if="{{list1}}">
+		<view class="motorcade" wx:for="{{list}}" wx:key="id" data-navigate="" bindtap="toView">
+			<view>{{item.name}}</view>
+			<view>查看成员<text class="iconfont iconjiantou"></text></view>
+		</view>
+	</block>
+	<block wx:else>
+		<view class="motorcade">暂无信息</view>
+	</block>
+</view>

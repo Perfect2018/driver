@@ -12,7 +12,14 @@
     "pages/personal/withdraw/withdraw",
     "pages/personal/phone/phone",
     "pages/personal/changePhone/changePhone",
-    "pages/personal/eveluation/eveluation"
+    "pages/personal/eveluation/eveluation",
+    "pages/personal/myCar/myCar",
+    "pages/personal/balance/balance",
+    "pages/personal/motorcade/motorcade",
+    "pages/personal/help/help",
+    "pages/personal/moreSettings/moreSettings",
+    "pages/personal/securitySettings/securitySettings",
+    "pages/personal/apply/apply"
   ],
   "window": {
     "backgroundTextStyle": "light",

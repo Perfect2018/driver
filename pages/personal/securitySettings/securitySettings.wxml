@@ -1,0 +1,24 @@
+<!--pages/personal/securitySettings/securitySettings.wxml-->
+<view class="bgcolor-white pt-30">
+	<view class="item">
+		<view>登录密码</view>
+		<view>
+			<view>修改</view>
+			<text class="iconfont iconjiantou"></text>
+		</view>
+	</view>
+	<view class="item" bindtap="toView" data-navigate="phone">
+		<view>修改手机号码</view>
+		<view>
+			<view>15591555555</view>
+			<text class="iconfont iconjiantou"></text>
+		</view>
+	</view>
+	<view class="item">
+		<view>支付密码</view>
+		<view>
+			<view>去设置</view>
+			<text class="iconfont iconjiantou"></text>
+		</view>
+	</view>
+</view>

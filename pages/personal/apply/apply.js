@@ -1,24 +1,15 @@
-// pages/personal/personal/personal.js
+// pages/personal/apply/apply.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
-  },
-
-  toView(e){
-    let navigate = e.currentTarget.dataset.navigate
-    wx.navigateTo({
-      url: `/pages/personal/${navigate}/${navigate}`,
-    })
-  },
-
-  call(){
-    wx.makePhoneCall({
-      phoneNumber: '4000861234',
-    })
+    list:[
+      {id:"01",name:"车队1"},
+      {id:"02",name:"车队2"},
+      {id:"03",name:"车队3"},
+    ]
   },
 
   /**

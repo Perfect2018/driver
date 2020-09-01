@@ -90,6 +90,13 @@
 					"id": -1,
 					"name": "pages/personal/personalData/personalData",
 					"pathName": "pages/personal/personalData/personalData",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personal/apply/apply",
+					"pathName": "pages/personal/apply/apply",
 					"scene": null
 				}
 			]

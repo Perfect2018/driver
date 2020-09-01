@@ -1,0 +1,23 @@
+/* pages/personal/securitySettings/securitySettings.wxss */
+
+.bgcolor-white{
+  padding: 10rpx 40rpx 10rpx;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  height: 100rpx;
+  align-items: center;
+  border-bottom: 4rpx solid #ccc;
+  font-size: 28rpx;
+}
+
+.item>view{
+  display: flex;
+  align-items: center;
+}
+
+.item>view>text{
+  margin-left: 20rpx;
+}

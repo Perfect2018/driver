@@ -1,0 +1,62 @@
+<!--pages/personal/help/help.wxml-->
+<view class="title">
+  <view>热点问题</view>
+  <view class="feedback">意见反馈</view>
+</view>
+<view class="bgcolor-white">
+  <view>
+    <view>如何注册认证?</view>
+    <text class="iconfont iconjiantou"></text>
+  </view>
+  <view>
+    <view>提交认证后多久能接单?</view>
+    <text class="iconfont iconjiantou"></text>
+  </view>
+  <view>
+    <view>如何修改登录密码?</view>
+    <text class="iconfont iconjiantou"></text>
+  </view>
+  <view>
+    <view>如何修改手机号?</view>
+    <text class="iconfont iconjiantou"></text>
+  </view>
+  <view>
+    <view>如何进行卸货签到?</view>
+    <text class="iconfont iconjiantou"></text>
+  </view>
+  <view>
+    <view>如何修改支付密码?</view>
+    <text class="iconfont iconjiantou"></text>
+  </view>
+</view>
+<view class="title">全部问题分类</view>
+<view class="bgcolor-white fw">
+  <view>
+    <view>账户</view>
+    <view>
+      <view>下载，安装，注册</view>
+      <text class="iconfont iconjiantou"></text>
+    </view>
+  </view>
+  <view>
+    <view>货源</view>
+    <view>
+      <view>查找货源，订制，分享货源</view>
+      <text class="iconfont iconjiantou"></text>
+    </view>
+  </view>
+  <view>
+    <view>车队</view>
+    <view>
+      <view>车队，通知，回话</view>
+      <text class="iconfont iconjiantou"></text>
+    </view>
+  </view>
+  <view>
+    <view>支付</view>
+    <view>
+      <view>放空保证金，运费担保，充值，提现</view>
+      <text class="iconfont iconjiantou"></text>
+    </view>
+  </view>
+</view>

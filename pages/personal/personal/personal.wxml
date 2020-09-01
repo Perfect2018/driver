@@ -13,7 +13,7 @@
 </view>
 
 <view class="money">
-  <view class="balance">
+  <view class="balance" bindtap="toView" data-navigate="balance">
     <text>0.00</text>
     <view>钱包余额(元)</view>
   </view>
@@ -22,7 +22,7 @@
   </view>
 </view>
 
-<view class="my-car">
+<view class="my-car" data-navigate="myCar" bindtap="toView">
   <view>
     <text class="iconfont iconche-tianchong icon-left"></text>
     <view>我的车辆</view>
@@ -34,7 +34,7 @@
 </view>
 
 <view class="my-list">
-<view class="my-item">
+<view class="my-item" data-navigate="motorcade" bindtap="toView">
   <view>
     <text class="iconfont icon-left iconiconset0203"></text>
     <view>加入车队</view>
@@ -44,7 +44,7 @@
   </view>
 </view>
 
-<view class="my-item">
+<view class="my-item" bindtap="call">
   <view>
     <text class="iconfont icon-left iconkefu"></text>
     <view>联系客服</view>
@@ -55,7 +55,7 @@
   </view>
 </view>
 
-<view class="my-item">
+<view class="my-item" data-navigate="help" bindtap="toView">
   <view>
     <text class="iconfont icon-left icontousujianyi"></text>
     <view>帮助与反馈</view>
@@ -76,7 +76,7 @@
   </view>
 </view>
 
-<view class="my-item">
+<view class="my-item" data-navigate="moreSettings" bindtap="toView">
   <view>
     <text class="iconfont icon-left iconai238"></text>
     <view>更多设置</view>

@@ -1,0 +1,31 @@
+<!--pages/personal/moreSettings/moreSettings.wxml-->
+<view class="set bgcolor-white" data-navigate="securitySettings" bindtap="toView">
+	<view>安全设置</view>
+	<view>
+		<text class="iconfont iconjiantou"></text>
+	</view>
+</view>
+<view class="tip">修改手机号、登录密码、支付密码等操作，请确认是您本人操作！</view>
+<view class="bgcolor-white pt-30">
+	<view class="item">
+		<view>推荐人绑定</view>
+		<view>
+			<view>薛师傅</view>
+			<text class="iconfont iconjiantou"></text>
+		</view>
+	</view>
+	<view class="item">
+		<view>当前版本</view>
+		<view>
+			<view>V1.0</view>
+			<text class="iconfont iconjiantou"></text>
+		</view>
+	</view>
+	<view class="item">
+		<view>关于我们</view>
+		<view>
+			<!-- <view>薛师傅</view> -->
+			<text class="iconfont iconjiantou"></text>
+		</view>
+	</view>
+</view>

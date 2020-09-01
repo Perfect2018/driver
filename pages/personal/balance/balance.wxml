@@ -1,0 +1,30 @@
+<!--pages/personal/balance/balance.wxml-->
+<view class="detail">
+  <view class="left">
+    <view>可提现金额（元）</view>
+    <view>0.00</view>
+    <view bindtap="freeze">冻结金额<text class="freeze">0.00</text><text class="iconfont iconicon"></text></view>
+  </view>
+  <view class="right">
+    <view>明细</view>
+    <text class="iconfont iconjiantou"></text>
+  </view>
+</view>
+
+<view class="bgcolor-white">
+  <view bindtap="toView" data-navigate="">
+    <view>提现</view>
+    <view>
+      <text class="iconfont iconjiantou"></text>
+    </view>
+  </view>
+  <view bindtap="toView" data-navigate="">
+    <view>银行卡</view>
+    <view>
+      <view>未绑定</view>
+      <text class="iconfont iconjiantou"></text>
+    </view>
+  </view>
+</view>
+
+<view class="help" bindtap="help">帮助说明</view>

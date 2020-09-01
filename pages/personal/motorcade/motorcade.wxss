@@ -1,0 +1,42 @@
+/* pages/personal/motorcade/motorcade.wxss */
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30rpx;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+}
+
+.bgcolor-white{
+  margin-bottom: 20rpx;
+  padding: 20rpx 40rpx 50rpx;
+  box-sizing: border-box;
+}
+
+.motorcade{
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4rpx solid #ccc;
+}
+
+.motorcade>view:first-child{
+  font-size: 30rpx;
+  color: #000;
+}
+
+.motorcade>view:last-child{
+  font-size: 30rpx;
+  color: #ccc;
+}
+
+.add{
+  width: 60rpx;
+  height: 60rpx;
+  text-align: center;
+  font-size: 50rpx;
+  font-weight: 400;
+}

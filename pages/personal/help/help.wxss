@@ -1,0 +1,55 @@
+/* pages/personal/help/help.wxss */
+page{
+  padding: 0;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30rpx;
+  color: #B3BBC7;
+  font-weight: 600;
+  /* margin-bottom: 20rpx; */
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.feedback{
+  color: #000;
+}
+
+.bgcolor-white{
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+.bgcolor-white>view{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100rpx;
+  font-size: 30rpx;
+  /* font-weight: 600; */
+  color: #000;
+  border-bottom: 4rpx solid #ccc;
+}
+
+.fw>view>view:first-child{
+  font-weight: 600;
+}
+
+.bgcolor-white>view:last-child{
+  border-bottom: none;
+}
+
+
+.bgcolor-white view text{
+  color: #ccc;
+}
+
+.bgcolor-white>view>view:last-child{
+  display: flex;
+  align-items: center;
+  color: #ccc;
+  font-size: 28rpx;
+}

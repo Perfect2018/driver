@@ -1,26 +1,24 @@
-// pages/personal/personal/personal.js
+// pages/personal/myCar/myCar.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    cars:[
+      {id:1,num:'陕A88888',isSelect:'01',auth:'01'},
+      {id:2,num:'陕A56719',isSelect:'02',auth:'01'},
+      {id:3,num:'陕A45612',isSelect:'02',auth:'02'},
+    ]
+  },
 
+  set(e){
+    console.log(e)
   },
 
   toView(e){
-    let navigate = e.currentTarget.dataset.navigate
-    wx.navigateTo({
-      url: `/pages/personal/${navigate}/${navigate}`,
-    })
-  },
 
-  call(){
-    wx.makePhoneCall({
-      phoneNumber: '4000861234',
-    })
   },
-
   /**
    * 生命周期函数--监听页面加载
    */

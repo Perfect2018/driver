@@ -1,0 +1,60 @@
+/* pages/personal/myCar/myCar.wxss */
+page{
+  padding: 20rpx;
+  background-color: #ececec;
+  box-sizing: border-box;
+}
+
+.car{
+  background-color: #fff;
+  padding: 20rpx 40rpx;
+  font-size: 30rpx;
+  box-sizing: border-box;
+}
+
+.car>view{
+  display: flex;
+  justify-content: space-between;
+  height: 100rpx;
+  align-items: center;
+  border-bottom: 2rpx solid #ccc;
+}
+
+.left,.right{
+  display: flex;
+}
+
+.left>view:first-child{
+  color: #666;
+  margin-right: 30rpx;
+}
+
+.select{
+  background-color: #c2192c;
+  color: #fff;
+  padding: 8rpx 20rpx;
+  box-sizing: border-box;
+  font-size: 26rpx;
+  border-radius: 32rpx;
+}
+
+.set{
+  border: 1rpx solid #000;
+  padding: 0 20rpx;
+  border-radius: 16rpx;
+  color: #000;
+}
+
+.right>view:first-child{
+  color: #000;
+}
+
+.add-btn{
+  background-color: #c2192c;
+  text-align: center;
+  border-radius: 50rpx;
+  padding: 20rpx 0;
+  color: #fff;
+  margin-top: 50rpx;
+  box-sizing: border-box;
+}

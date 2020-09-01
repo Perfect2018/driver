@@ -1,4 +1,4 @@
-// pages/personal/personal/personal.js
+// pages/personal/securitySettings/securitySettings.js
 Page({
 
   /**
@@ -12,12 +12,6 @@ Page({
     let navigate = e.currentTarget.dataset.navigate
     wx.navigateTo({
       url: `/pages/personal/${navigate}/${navigate}`,
-    })
-  },
-
-  call(){
-    wx.makePhoneCall({
-      phoneNumber: '4000861234',
     })
   },
 
