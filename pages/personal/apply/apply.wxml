@@ -1,7 +1,7 @@
 <view class="title">可加入的车队</view>
 <view class="bgcolor-white">
 	<block wx:if="{{list}}">
-		<view class="item" wx:for="{{list}}" wx:key="id">
+		<view class="item" wx:for="{{list}}" wx:key="id" data-navigate="invite" data-id="{{item.id}}" bindtap="toView">
 			<view>{{item.name}}</view>
 			<view>
 				<view>查看成员</view>

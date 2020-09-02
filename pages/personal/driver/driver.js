@@ -1,21 +1,22 @@
-// pages/personal/apply/apply.js
+// pages/personal/driver/driver.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    list:[
-      {id:"01",name:"车队1"},
-      {id:"02",name:"车队2"},
-      {id:"03",name:"车队3"},
-    ]
+
   },
 
-  toView(e){
-    let navigate = e.currentTarget.dataset.navigate
-    wx.navigateTo({
-      url: `/pages/personal/${navigate}/${navigate}`,
+  continue(){
+    wx.showToast({
+      title: '下一步',
+    })
+  },
+
+  upload(){
+    wx.showToast({
+      title: '相关证件',
     })
   },
   /**

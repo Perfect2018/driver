@@ -19,7 +19,14 @@
     "pages/personal/help/help",
     "pages/personal/moreSettings/moreSettings",
     "pages/personal/securitySettings/securitySettings",
-    "pages/personal/apply/apply"
+    "pages/personal/apply/apply",
+    "pages/personal/invite/invite",
+    "pages/personal/perfect/perfect",
+    "pages/personal/driver/driver",
+    "pages/personal/common/common",
+    "pages/personal/vehicle/vehicle",
+    "pages/nav/load/load",
+    "pages/nav/handing/hangding"
   ],
   "window": {
     "backgroundTextStyle": "light",

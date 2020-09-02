@@ -1,22 +1,39 @@
-// pages/personal/apply/apply.js
+// pages/nav/load/load.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    list:[
-      {id:"01",name:"车队1"},
-      {id:"02",name:"车队2"},
-      {id:"03",name:"车队3"},
-    ]
+    currentDate: new Date().getTime(),
+    isShow:false,
+    weight:''
   },
 
-  toView(e){
-    let navigate = e.currentTarget.dataset.navigate
-    wx.navigateTo({
-      url: `/pages/personal/${navigate}/${navigate}`,
+  getParams(e){
+    console.log(e)
+  },
+
+  onInput(e) {
+    console.log(e)
+    this.setData({
+      currentDate: e.detail,
+      isShow:false
+    });
+  },
+
+  show(){
+    this.setData({
+      isShow:true
     })
+  },
+
+  commit(){
+
+  },
+
+  cancel(){
+
   },
   /**
    * 生命周期函数--监听页面加载

@@ -1,0 +1,84 @@
+<!--pages/personal/vehicle/vehicle.wxml-->
+<!--pages/personal/driver/driver.wxml-->
+<view class="title">行驶证信息</view>
+<view class="card bgcolor-white">
+  <view class="paper">
+    <image src="/images/card1.png" bindtap="upload"></image>
+    <view>法人身份证人像面</view>
+  </view>
+  <view class="paper">
+    <image src="/images/card2.png" bindtap="upload"></image>
+    <view>法人身份证国徽面</view>
+  </view>
+</view>
+
+<view class="info bgcolor-white">
+  <view class="info-item">
+    <view>车牌号码</view>
+    <input></input>
+  </view>
+  <view class="info-item">
+    <view>车辆类型</view>
+    <input></input>
+  </view>
+  <view class="info-item">
+    <view>所有人</view>
+    <input></input>
+  </view>
+  <view class="info-item">
+    <view>住址</view>
+    <input></input>
+  </view>
+  <view class="info-item">
+    <view>使用性质</view>
+    <input></input>
+  </view>
+  <view class="info-item">
+    <view>品牌型号</view>
+    <input></input>
+  </view>
+  <view class="info-item">
+    <view>车辆识别代码</view>
+    <input></input>
+  </view>
+  <view class="info-item">
+    <view>发动机号</view>
+    <input></input>
+  </view>
+  <view class="info-item">
+    <view>注册日期</view>
+    <input></input>
+  </view>
+   <view class="info-item">
+    <view>发证日期</view>
+    <input></input>
+  </view>
+   <view class="info-item">
+    <view>检验有效期至</view>
+    <input></input>
+  </view>
+</view>
+<view class="title">道路运输证信息</view>
+<view class="obtain bgcolor-white">
+  <view class="paper">
+    <image src="/images/zizhi.png" bindtap="upload"></image>
+    <view>道路运输证</view>
+  </view>
+  <view class="paper">
+    <image src="/images/zizhi.png" bindtap="upload"></image>
+    <view>车头照片(正)</view>
+  </view>
+</view>
+
+<view class="bgcolor-white">
+  <view class="obtain-item">
+    <view>道路运输证号</view>
+    <view></view>
+  </view>
+   <view class="obtain-item">
+    <view>发证日期</view>
+    <view></view>
+  </view>
+</view>
+
+<view class="btn" bindtap="continue">下一步</view>

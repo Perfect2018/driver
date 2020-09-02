@@ -1,0 +1,22 @@
+<view class="title">车队信息</view>
+<view class="bgcolor-white top">
+  <view>
+    <view>车队名称:<text>秦经老年经济服务公司</text></view>
+  </view>
+  <view>
+    <view>车队长:<text>秦经</text></view>
+  </view>
+  <view>
+    <view>手机号:<text>18812346541</text></view>
+  </view>
+</view>
+<view class="title">成员信息</view>
+<view class="bgcolor-white">
+  <view>
+    <view>孙悟空</view>
+    <text>陕A88888</text>
+  </view>
+</view>
+
+<view class="btn" bindtap="join">立即加入</view>
+

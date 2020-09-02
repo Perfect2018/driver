@@ -1,0 +1,59 @@
+<!--pages/personal/driver/driver.wxml-->
+<view class="title">企业法人信息</view>
+<view class="card bgcolor-white">
+  <view class="paper">
+    <image src="/images/card1.png" bindtap="upload"></image>
+    <view>法人身份证人像面</view>
+  </view>
+  <view class="paper">
+    <image src="/images/card2.png" bindtap="upload"></image>
+    <view>法人身份证国徽面</view>
+  </view>
+</view>
+
+<view class="info bgcolor-white">
+  <view class="info-item">
+    <view>法人姓名</view>
+    <input></input>
+  </view>
+  <view class="info-item">
+    <view>法人身份证</view>
+    <input></input>
+  </view>
+</view>
+<view class="title">企业资质信息</view>
+<view class="obtain bgcolor-white">
+  <view class="paper">
+    <image src="/images/zizhi.png" bindtap="upload"></image>
+    <view>营业执照</view>
+  </view>
+  <view class="paper">
+    <image src="/images/zizhi.png" bindtap="upload"></image>
+    <view>道路运输许可证(若有)</view>
+  </view>
+</view>
+
+<view class="bgcolor-white">
+  <view class="obtain-item">
+    <view>企业名称</view>
+    <view></view>
+  </view>
+   <view class="obtain-item">
+    <view>统一社会信息代码</view>
+    <view></view>
+  </view>
+  <view class="obtain-item">
+    <view>企业注册地址</view>
+    <view></view>
+  </view>
+  <view class="obtain-item">
+    <view>道路运输经营许可证号</view>
+    <view></view>
+  </view>
+  <view class="obtain-item">
+    <view>证件有效期</view>
+    <view></view>
+  </view>
+</view>
+
+<view class="btn" bindtap="continue">下一步</view>

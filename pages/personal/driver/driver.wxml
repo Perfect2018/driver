@@ -1,0 +1,49 @@
+<!--pages/personal/driver/driver.wxml-->
+<view class="title">驾驶证信息</view>
+<view class="card bgcolor-white">
+  <view class="paper">
+    <image src="/images/card1.png" bindtap="upload"></image>
+    <view>驾驶证正页</view>
+  </view>
+  <view class="paper">
+    <image src="/images/card2.png" bindtap="upload"></image>
+    <view>驾驶证副页</view>
+  </view>
+</view>
+
+<view class="info bgcolor-white">
+  <view class="info-item">
+    <view>驾驶证类型</view>
+    <input></input>
+  </view>
+  <view class="info-item">
+    <view>驾驶证号</view>
+    <input></input>
+  </view>
+  <view class="info-item">
+    <view>驾驶证有效期</view>
+    <input></input>
+  </view>
+  <view class="info-item">
+    <view>发证机关</view>
+    <input></input>
+  </view>
+</view>
+<view class="title">从业资格证信息</view>
+<view class="obtain bgcolor-white">
+  <image src="/images/zizhi.png" bindtap="upload"></image>
+  <view>从业资格证正面</view>
+</view>
+
+<view class="bgcolor-white">
+  <view class="obtain-item">
+    <view>从业资格证号</view>
+    <view></view>
+  </view>
+   <view class="obtain-item">
+    <view>有效期至</view>
+    <view></view>
+  </view>
+</view>
+
+<view class="btn" bindtap="continue">下一步</view>

@@ -1,6 +1,6 @@
 <!--components/orderList/index.wxml-->
 <view class="orderlist" wx:for="{{orderList}}" wx:key="index">
-	<view bindtap="toView">
+	<view bindtap="toView" data-id="{{item.id}}">
 		<view class="left">
 			<view>
 				<view class="install">装</view>

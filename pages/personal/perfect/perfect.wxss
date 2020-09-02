@@ -1,0 +1,37 @@
+page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  padding-bottom: 100rpx;
+}
+
+.individual>view:first-child,.team>view:first-child{
+  width: 600rpx;
+  height: 300rpx;
+  background-color: #fff;
+  border-radius: 32rpx;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 40rpx;
+  font-weight: 600;
+  color: #000;
+}
+
+.individual,.team{
+  text-align: center;
+  font-size: 28rpx;
+  color: #999;
+}
+
+image{
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.tip{
+  height: 100rpx;
+  line-height: 100rpx;
+}

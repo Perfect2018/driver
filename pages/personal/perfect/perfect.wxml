@@ -1,0 +1,16 @@
+<!--pages/personal/perfect/perfect.wxml-->
+<view class="individual" bindtap="toView" data-navigate="driver">
+  <view>
+    <image src="/images/personal.png"></image>
+    <view>个人司机认证</view>
+  </view>
+  <view class="tip">我是个体司机，我个人接单赚钱</view>
+</view>
+<view class="team" bindtap="toView" data-navigate="common">
+  <view>
+    <image src="/images/moto.png"></image>
+    <view>承运商车队认证</view>
+  </view>
+  <view class="tip">我是承运商企业，我有多名司机多辆车接单赚钱</view>
+
+</view>

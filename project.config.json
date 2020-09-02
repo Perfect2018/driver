@@ -97,6 +97,20 @@
 					"id": -1,
 					"name": "pages/personal/apply/apply",
 					"pathName": "pages/personal/apply/apply",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personal/perfect/perfect",
+					"pathName": "pages/personal/perfect/perfect",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personal/vehicle/vehicle",
+					"pathName": "pages/personal/vehicle/vehicle",
 					"scene": null
 				}
 			]

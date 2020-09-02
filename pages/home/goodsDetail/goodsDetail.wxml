@@ -1,106 +1,111 @@
 <!--pages/home/goodsDetail/goodsDetail.wxml-->
 <scroll-view scroll-y="true">
-<view class="tip">
-  <van-icon name="info"></van-icon>
-  请严格遵守法律法规，严禁超载、超限运输!
-</view>
+	<view class="tip">
+		<van-icon name="info"></van-icon>
+		请严格遵守法律法规，严禁超载、超限运输!
+	</view>
 
-<view class="good">
-  <view class="origin">
-    <view>鄂尔多斯市鄂托克前旗<text class="iconfont iconche-tianchong"></text></view>
-    <view>晋中市介休市</view>
-  </view>
-  <view class="title">
-    <text>煤炭</text>
-    <text>59吨</text>
-    <text>7-30装货</text>
-  </view>
-  <view>
-    <view class="good-name">货物名称：</view>
-    <text>精煤</text>
-  </view>
-  <view>
-    <view class="cars">车辆数：</view>
-    <text>10车</text>
-  </view>
-  <view>
-    <view class="car-type">车型需求：</view>
-    <text>重型半挂牵引车</text>
-  </view>
-  <view>
-    <view class="time">装货时间：</view>
-    <text>8月28日</text>
-  </view>
-  <view class="Remark">
-    <view class="remark">备注：</view>
-    <text></text>
-  </view>
-  <view class="company-name">
-    <text class="iconfont iconyonghu"></text>
-    秦经老年经济服务公司
-  </view>
-</view>
+	<view class="good">
+		<view class="origin">
+			<view>鄂尔多斯市鄂托克前旗<text class="iconfont iconche-tianchong"></text></view>
+			<view>晋中市介休市</view>
+		</view>
+		<view class="title">
+			<text>煤炭</text>
+			<text>59吨</text>
+			<text>7-30装货</text>
+		</view>
+		<view>
+			<view class="good-name">货物名称：</view>
+			<text>精煤</text>
+		</view>
+		<view>
+			<view class="cars">车辆数：</view>
+			<text>10车</text>
+		</view>
+		<view>
+			<view class="car-type">车型需求：</view>
+			<text>重型半挂牵引车</text>
+		</view>
+		<view>
+			<view class="time">装货时间：</view>
+			<text>8月28日</text>
+		</view>
+		<view class="Remark">
+			<view class="remark">备注：</view>
+			<text></text>
+		</view>
+		<view class="company-name">
+			<text class="iconfont iconyonghu"></text>
+			秦经老年经济服务公司
+		</view>
+	</view>
 
-<view class="addr">
-  <view class="start">
-    <view>榆林市横山区</view>
-    <view>
-      <view>联系人：</view>
-      <text>王*</text>
-    </view>
-    <view>
-      <view>手机号：</view>
-      <text>13655667788</text>
-    </view>
-    <view>
-      <view>地址：</view>
-      <text>陕西省榆林市衡山区方家畔煤矿</text>
-      <view class="nav">导航</view>
-    </view>
-  </view>
-  <view class="end">
-    <view>吕梁市孝义市</view>
-    <view>
-      <view>联系人：</view>
-      <text>王*</text>
-    </view>
-    <view>
-      <view>手机号：</view>
-      <text>13655667788</text>
-    </view>
-    <view>
-      <view>地址：</view>
-      <text>陕西省榆林市衡山区方家畔煤矿</text>
-      <view class="nav">导航</view>
-    </view>
-  </view>
-</view>
+	<view class="addr">
+		<view class="start">
+			<view>榆林市横山区</view>
+			<view>
+				<view>联系人：</view>
+				<text>王*</text>
+			</view>
+			<view>
+				<view>手机号：</view>
+				<text>13655667788</text>
+			</view>
+			<view>
+				<view>地址：</view>
+				<text>陕西省榆林市衡山区方家畔煤矿</text>
+				<view class="nav">导航</view>
+			</view>
+		</view>
+		<view class="end">
+			<view>吕梁市孝义市</view>
+			<view>
+				<view>联系人：</view>
+				<text>王*</text>
+			</view>
+			<view>
+				<view>手机号：</view>
+				<text>13655667788</text>
+			</view>
+			<view>
+				<view>地址：</view>
+				<text>陕西省榆林市衡山区方家畔煤矿</text>
+				<view class="nav">导航</view>
+			</view>
+		</view>
+	</view>
 
-<view class="freight">
-  <view>
-    <view>运费单价：</view>
-    <text>100元/吨</text>
-  </view>
-  <view>
-    <view>预付运费：</view>
-    <text>90000.00元</text>
-  </view>
-</view>
+	<view class="common-carrier">
+		<view>承运商</view>
+		<view>秦经老年经济服务公司</view>
+	</view>
 
-<view class="statement">
-  此货源是公开货源，抢单后请立即开始承运
-</view>
+	<view class="freight">
+		<view>
+			<view>运费单价：</view>
+			<text>100元/吨</text>
+		</view>
+		<view>
+			<view>预付运费：</view>
+			<text>90000.00元</text>
+		</view>
+	</view>
+
+	<view class="statement">
+		此货源是公开货源，抢单后请立即开始承运
+	</view>
 </scroll-view>
 <view class="bottom">
-  <view>
-    <text class="iconfont iconduigou1 {{state01?'color':'color666'}}" bindtap="select" data-state="01"></text>
-    <text>同意并签署</text>
-    <text bindtap="toView">《货物委托运输协议书》</text>
-  </view>
-  <view>
-    <text class="iconfont iconduigou1 {{state02?'color':'color666'}}" bindtap="select" data-state="02"></text>
-    <text>同意并签署</text>
-    <text bindtap="toView">《道路货运运输安全告知书》</text>
-  </view>
-  <view class="btn" bindtap="getOrder">立即抢单</view>
+	<view>
+		<text class="iconfont iconduigou1 {{state01?'color':'color666'}}" bindtap="select" data-state="01"></text>
+		<text>同意并签署</text>
+		<text bindtap="toView">《货物委托运输协议书》</text>
+	</view>
+	<view>
+		<text class="iconfont iconduigou1 {{state02?'color':'color666'}}" bindtap="select" data-state="02"></text>
+		<text>同意并签署</text>
+		<text bindtap="toView">《道路货运运输安全告知书》</text>
+	</view>
+	<view class="btn" bindtap="getOrder">立即抢单</view>
 </view>

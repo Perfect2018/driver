@@ -1,23 +1,13 @@
-// pages/personal/apply/apply.js
+// pages/nav/handing/hangding.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    list:[
-      {id:"01",name:"车队1"},
-      {id:"02",name:"车队2"},
-      {id:"03",name:"车队3"},
-    ]
+    time:new Date().getTime()
   },
 
-  toView(e){
-    let navigate = e.currentTarget.dataset.navigate
-    wx.navigateTo({
-      url: `/pages/personal/${navigate}/${navigate}`,
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */

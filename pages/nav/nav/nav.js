@@ -37,7 +37,9 @@ Page({
   },
 
   _load(e){
-    console.log(e)
+    wx.navigateTo({
+      url: '/pages/nav/load/load',
+    })
   },
 
   _complain(e){
@@ -49,8 +51,8 @@ Page({
   },
 
   _look(e){
-    wx.showToast({
-      title: '装卸货信息',
+    wx.navigateTo({
+      url: '/pages/nav/handing/hangding',
     })
   },
 
