@@ -1,0 +1,18 @@
+<!--pages/personal/inform/inform.wxml-->
+<view class="bgcolor-white top">
+  <view>
+    运单助手
+  </view>
+  <view>
+    App
+  </view>
+  <view>
+    系统消息
+  </view>
+  <view>
+    活动公告
+  </view>
+</view>
+<view class="list">
+  <view>系统消息.0000000000000</view>
+</view>

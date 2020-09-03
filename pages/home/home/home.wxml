@@ -5,13 +5,14 @@
   </view>
   <view>
     <image src="../../../images/scan.png"></image>
+    <!-- 扫一扫 -->
   </view>
 </view>
 
 <view class="swiper">
   <swiper indicator-dots="true" indicator-active-color="#c2192c" autoplay="true">
-    <swiper-item wx:for="{{3}}" wx:key="index">
-      <view>{{item.index}}</view>
+    <swiper-item wx:for="{{imgs}}" wx:key="index">
+      <image src="{{item.img}}"></image>
     </swiper-item>
   </swiper>
 </view>

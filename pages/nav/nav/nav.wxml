@@ -3,9 +3,9 @@
   <van-tab title="进行中">
     <order-list order-list="{{orderList}}" bindload="_load" bindcomplain="_complain" bindcancel="_cancel"></order-list>
   </van-tab>
-  <van-tab title="待结算">
+  <!-- <van-tab title="待结算">
     <order-list order-list="{{orderList1}}" bindlook="_look" bindcomplain="_complain"></order-list>
-  </van-tab>
+  </van-tab> -->
   <van-tab title="待付款">
     <order-list order-list="{{orderList2}}" bindprompt="_prompt" bindcomplain="_complain"></order-list>
   </van-tab>

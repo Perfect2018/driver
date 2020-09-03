@@ -103,12 +103,12 @@ page{
 
 .code{
   border: 1rpx solid #C2192C;
-  width: 280rpx;
-  height: 80rpx;
+  width: 260rpx;
+  height: 60rpx;
   text-align: center;
   color: #C2192C;
   font-size: 36rpx;
-  line-height: 80rpx;
+  line-height: 60rpx;
   border-radius: 16rpx;
 }
 

@@ -44,6 +44,16 @@
   </view>
 </view>
 
+<view class="my-item" data-navigate="inform" bindtap="toView">
+  <view>
+    <text class="iconfont icon-left iconxiaoxi"></text>
+    <view>消息通知</view>
+  </view>
+  <view>
+    <text class="icon-right iconfont iconjiantou"></text>
+  </view>
+</view>
+
 <view class="my-item" bindtap="call">
   <view>
     <text class="iconfont icon-left iconkefu"></text>

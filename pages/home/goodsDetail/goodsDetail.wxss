@@ -178,6 +178,7 @@ scroll-view{
 
 .bottom{
   width: 100%;
+  height: 300rpx;
   position: fixed;
   bottom: 0;
   background-color: #fff;
@@ -207,7 +208,7 @@ scroll-view{
 }
 
 .bottom>.btn{
-  height: 80rpx;
+  height: 100rpx;
   /* text-align: center; */
   line-height: 80rpx;
   background-color: #C11629;
@@ -239,4 +240,59 @@ scroll-view{
   color: #000;
   background-color:#fff;
   box-sizing: border-box;
+}
+
+.bill{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20rpx; */
+  font-size: 28rpx;
+  color: #000;
+  margin-bottom: 20rpx;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.bill image{
+  width: 350rpx;
+  height: 200rpx;
+}
+
+.info{
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+
+.info>view{
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.info .title{
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 26rpx;
+  font-weight: 600;
+}
+
+.item{
+  padding: 0 20rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+}
+
+.item>text{
+  font-size: 28rpx;
+  color: #000;
+  margin-right: 20rpx;
+}
+
+.item input{
+  height: 70rpx;
+  border: 1rpx solid #000;
+  padding-left: 20rpx;
+  color: #bbb;
+  font-size: 28rpx;
 }

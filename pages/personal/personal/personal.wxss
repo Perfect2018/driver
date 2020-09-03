@@ -6,11 +6,15 @@ page{
 }
 
 .header{
-  padding: 20rpx;
+  padding: 0 20rpx;
   height: 200rpx;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #fff;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  border-radius: 16rpx;
 }
 
 .userInfo{

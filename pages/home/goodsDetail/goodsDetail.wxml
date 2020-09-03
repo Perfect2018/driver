@@ -96,16 +96,100 @@
 		此货源是公开货源，抢单后请立即开始承运
 	</view>
 </scroll-view>
-<view class="bottom">
-	<view>
-		<text class="iconfont iconduigou1 {{state01?'color':'color666'}}" bindtap="select" data-state="01"></text>
-		<text>同意并签署</text>
-		<text bindtap="toView">《货物委托运输协议书》</text>
+<block wx:if="{{state=='00'}}">
+	<view class="bottom">
+		<view>
+			<text class="iconfont iconduigou1 {{state01?'color':'color666'}}" bindtap="select" data-state="01"></text>
+			<text>同意并签署</text>
+			<text bindtap="toView">《货物委托运输协议书》</text>
+		</view>
+		<view>
+			<text class="iconfont iconduigou1 {{state02?'color':'color666'}}" bindtap="select" data-state="02"></text>
+			<text>同意并签署</text>
+			<text bindtap="toView">《道路货运运输安全告知书》</text>
+		</view>
+		<view class="btn" bindtap="getOrder">立即抢单</view>
 	</view>
-	<view>
-		<text class="iconfont iconduigou1 {{state02?'color':'color666'}}" bindtap="select" data-state="02"></text>
-		<text>同意并签署</text>
-		<text bindtap="toView">《道路货运运输安全告知书》</text>
+</block>
+<block wx:if="{{state=='01'}}">
+	<view class="bottom">
+		<view class="btn" bindtap="load">立即装货</view>
+		<view class="btn" bindtap="cancel">取消</view>
 	</view>
-	<view class="btn" bindtap="getOrder">立即抢单</view>
-</view>
+</block>
+<block wx:if="{{state=='02'}}">
+	<view class="bottom">
+		<view class="btn" bindtap="load">立即卸货</view>
+		<view class="btn" bindtap="cancel">取消</view>
+	</view>
+</block>
+<block wx:if="{{state=='03'}}">
+	<view class="info">
+		<view class="bgcolor-white">
+			<view class="bill">
+				<view>
+					<image src="/images/logo.png"></image>
+					<view>装货单</view>
+				</view>
+				<view>
+					<image src="/images/logo.png"></image>
+					<view>卸货单</view>
+				</view>
+			</view>
+			<view class="title">装货信息</view>
+			<view class="item">
+				<text>装货净重:</text>
+				<text>30</text>
+			</view>
+			<view class="item">
+				<text>装货时间:</text>
+				<text>2020-09-01</text>
+			
+			</view>
+			<view class="title">卸货信息</view>
+			<view class="item">
+				<text>卸货净重:</text>
+				<text>36</text>
+			</view>
+			<view class="item">
+				<text>卸货时间:</text>
+				<text>2020-09-03</text>
+			</view>
+		</view>
+	</view>
+</block>
+<block wx:if="{{state=='04'}}">
+	<view class="info">
+		<view class="bgcolor-white">
+			<view class="bill">
+				<view>
+					<image src="/images/logo.png"></image>
+					<view>装货单</view>
+				</view>
+				<view>
+					<image src="/images/logo.png"></image>
+					<view>卸货单</view>
+				</view>
+			</view>
+			<view class="title">装货信息</view>
+			<view class="item">
+				<text>装货净重:</text>
+				<text>30</text>
+			</view>
+			<view class="item">
+				<text>装货时间:</text>
+				<text>2020-09-01</text>
+			
+			</view>
+			<view class="title">卸货信息</view>
+			<view class="item">
+				<text>卸货净重:</text>
+				<text>36</text>
+			</view>
+			<view class="item">
+				<text>卸货时间:</text>
+				<text>2020-09-03</text>
+			</view>
+		</view>
+	</view>
+</block>

@@ -2,7 +2,7 @@
   "pages": [
     "pages/login/index",
     "pages/home/home/home",
-    "pages/inform/inform/inform",
+    "pages/personal/inform/inform",
     "pages/nav/nav/nav",
     "pages/personal/personal/personal",
     "pages/supply/supply/supply",
@@ -57,12 +57,6 @@
         "text": "跟踪单",
         "iconPath": "/images/nav.png",
         "selectedIconPath": "/images/s-nav.png"
-      },
-      {
-        "pagePath": "pages/inform/inform/inform",
-        "text": "消息通知",
-        "iconPath": "/images/info.png",
-        "selectedIconPath": "/images/s-info.png"
       },
       {
         "pagePath": "pages/personal/personal/personal",

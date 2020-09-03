@@ -6,6 +6,7 @@ Page({
    */
   data: {
     id:'',
+    state:'04',
     state01:true,
     state02:true
   },
@@ -34,6 +35,18 @@ Page({
   getOrder(){
     wx.showToast({
       title: '抢单',
+    })
+  },
+
+  load(){
+    wx.navigateTo({
+      url: '/pages/nav/load/load',
+    })
+  },
+
+  cancel(){
+    wx.showToast({
+      title: '取消',
     })
   },
   /**

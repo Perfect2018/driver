@@ -1,20 +1,11 @@
-// pages/home/home/home.js
+// pages/personal/inform/inform.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    orderList:[
-      {start:'榆林市横山区',end:'吕梁市孝义市',goodName:'煤炭',weight:'59',require:'7-30',company:'秦经老年经济服务公司',time:'8-20 15:25',total:'0',price:'100'},
-      {start:'榆林市横山区',end:'吕梁市孝义市',goodName:'煤炭',weight:'59',require:'7-30',company:'秦经老年经济服务公司',time:'8-20 15:25',total:'0',price:'100'},
-      {start:'榆林市横山区',end:'吕梁市孝义市',goodName:'煤炭',weight:'59',require:'7-30',company:'秦经老年经济服务公司',time:'8-20 15:25',total:'0',price:'100'},
-    ],
-    imgs:[
-      {img:'/images/1.jpg'},
-      {img:'/images/2.jpg'},
-      {img:'/images/3.jpg'},
-    ]
+
   },
 
   /**

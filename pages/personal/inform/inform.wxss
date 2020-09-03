@@ -1,0 +1,31 @@
+/* pages/personal/inform/inform.wxss */
+.top{
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+  font-size: 22rpx;
+  margin-bottom: 20rpx;
+  color: #c11629;
+}
+
+.top>view{
+  background-color: #f1f1f1;
+  width: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 16rpx;
+}
+
+.list{
+  background-color: #fff;
+  padding: 0 20rpx;
+  border-radius: 16rpx;
+}
+
+.list>view{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  color: #c11629;
+}
